@@ -1,4 +1,4 @@
-## Project Name:  the Lost
+## Project Name:  Fatal Force
 
 #### Check In: 1  
 
@@ -17,7 +17,7 @@
 
 #### Waffle & Github
 - [Waffle](https://waffle.io/tlgreg86/theLost)
-- [Github](https://github.com/tlgreg86/theLost)
+- [Github](https://github.com/tlgreg86/Fatal-Force)
 
 #### Order Of Attack
 
