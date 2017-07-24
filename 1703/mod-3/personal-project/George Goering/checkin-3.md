@@ -1,6 +1,6 @@
 ## Project Name:  Silly Bets App
 
-#### Check In 1:
+#### Check In 3:
 
 #### Project Pitch:  
 * It's an app that allows people to make silly bets with their friends, track what they owe, track what is owed them, and notify users when they want to cash in on instantaneous pay-ups.
@@ -24,14 +24,13 @@
 * https://waffle.io/Ggoering/Silly-Bets-App
 
 #### Order Of Attack  
-* build DB / build API, build front end
+* refine API, finish front end
 
 #### MVP
 * app can access db, user login, and check current bets
 
 #### Nice To Haves  
 * email notifications on bet cash in
-* activity feed
 * actually connecting to the internet
 * Invites
 
@@ -46,5 +45,4 @@
 * Front facing website that allows users to sign in & out.
 
 #### Deliverables for next checkin:
-DB with tables. No join
-If unsuccessful with join will pivot to firebase.
+completed API

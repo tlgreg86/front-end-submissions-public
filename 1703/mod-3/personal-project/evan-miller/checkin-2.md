@@ -2,26 +2,24 @@
 
 #### Check In: 1  
 
-#### Project Pitch 
-A Magic Mirror, is a reflective monitor that will show data to the participant on top of a mirror. Positioned to be a unit the user would see during their daily routine, it can include the current date, daily weather outside, travel information, music currently playing, and daily schedule. 
+#### Project Pitch
+A Magic Mirror, is a reflective monitor that will show data to the participant on top of a mirror. Positioned to be a unit the user would see during their daily routine, it can include the current date, daily weather outside, travel information, music currently playing, and daily schedule.
 
-On top of that, if set goals were to be made, adding Alexa for voice interaction would make the unit hands free and customisable. 
+On top of that, if set goals were to be made, adding Alexa for voice interaction would make the unit hands free and customisable.
 
 ### Deliverables  
 
 #### Stack:
 - React
 - Redux
-- React Router
 - Electron
 
-#### APIs: 
-- Weather Underground 
+#### APIs:
+- Weather Underground
 - Newsapi
-- Spotify
 - Alexa
 
-#### Hardware: 
+#### Hardware:
 - 27" LED Monitor
 - 2 Way Mirror
 - Raspberry Pi 3
@@ -37,26 +35,27 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 
 [waffle](https://waffle.io/EvanSays/magic-mirror)
 
-#### Order Of Attack 
+#### Order Of Attack
 
-##### iteration 0 : Initial Discovery and Reasearch
-- Create wireframes in Sketch
-- Reaserch APIs
-- Create BOM for physical materials
-- Understand requirements
+##### iteration 0 : Initial Discovery and Research
+- ~~Create wireframes in Sketch~~
+- ~~Research APIs~~
+- ~~Create BOM for physical materials~~
+- ~~Understand requirements~~
 
 ##### iteration 1 : Order BOM / Build Boilerplate / Harness Data
-- Order BOM
-- Create React/Redux boilerplate
-- Wireframe and position data/mock content, which includes routing content, and some CSS styling  
-- Connect to Weather Underground and NewsAPI, create cleaner functions to harness data needed
+- ~~Order BOM~~
+- ~~Create React/Redux boilerplate~~
+- Wireframe and position data/mock content, which includes routing content, and some CSS styling **(in progress)**
+- Connect to Weather Underground and NewsAPI, create cleaner functions to harness data needed **(in progress)**
+- Add Youtube playlist to play
 - Show APIs information
 
 ##### iteration 2 : Initial App Tests / Build Hardware & Test
 - Write tests for first stage
-- Install Rasp Pi software
+- ~~Install Rasp Pi software~~
 - Test all hardware together, make sure it works
-- Test a react project on Raspberry, how to do that?
+- **Test project on Raspberry, bundle with electron**
 
 ##### iteration 3 : Connect Alexa
 - Create API key, test Alexa on local computer.
@@ -74,22 +73,24 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 
 #### MVP
 
-A working smart mirror that displays the weather and daily news. 
+A working smart mirror that displays the weather and daily news.
 
 #### Nice To Haves   
 - Alexa
-- Calender 
+- Calender
 - More APIs
 - Music
 
 #### Biggest Challenges
 - Testing the app with mock functions.
 - Understanding and incorporating Alexa.  
-- How to put app on Raspberry Pi, node.js?
+- How to put app on Raspberry Pi, electron?
 
 #### Instructor Notes
-  * NewsAPI
-  * WeatherAPI
+
 #### Deliverables for next checkin:
-  * NewsAPI 
-  * WeatherAPI
+- A working MVP, in regard to software.
+- All hardware ordered
+- Progress made with using Alexa
+- Iteration 0, 1, 2 complete
+- Iteration 3 in progress
